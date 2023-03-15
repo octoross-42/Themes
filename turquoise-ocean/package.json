@@ -1,0 +1,40 @@
+{
+	"name": "turquoise-ocean",
+  "displayName": "Turquoise Ocean",
+  "description": "Pour se sentir dans son propre monde",
+  "publisher" : "coding Ocean",
+  "author" : {
+    "name" : "Océane Torossian"
+  },
+  "version" : "0",
+  "engines": {
+    "vscode" : "^1.47.0"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : ""
+  },
+  "galleryBanner" : {
+    "color" : "#189aa7",
+    "theme" : "dark"
+  },
+  "icon" : "",
+  "categories" : [
+    "Themes"
+  ],
+  "keywords": [
+    "codingOcean",
+    "Turquoise",
+    "Dark Theme",
+    "Ocean"
+  ],
+  "contributes": {
+	"themes": [
+		{
+			"label": "codingOcean Theme",
+			"uiTheme": "vs-dark",
+			"path" : "./turquoise-color-theme.json"
+		}
+	]
+  }
+}
